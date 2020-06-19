@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  line-height: 1.5em;
+}
+
+a {
+  /* Remove underline from links */
+  text-decoration: none;
+  color: #262626;
+}
+
+ul {
+  /* Remove bullets from list items */
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  /* max-width: 1100px; */
+  margin: auto;
+}
+
+/* Nav Bar */
+
+.main-nav {
+  display: flex;
+  flex-direction: row; /* Redundant - By default direcrtion is row */
+  align-items: center;
+  justify-content: space-around; /* Distribute equal spaces to the 3 items */
+  height: 60px;
+  padding: 20px 0;
+  font-size: 13px;
+}
+
+.main-nav .logo {
+  width: 110px;
+}
+
+.main-nav ul {
+  display: flex;
+}
+
+.main-nav ul li {
+  padding: 0 10px;
+}
+
+.main-nav ul li a {
+  padding-bottom: 5px;
+}
+
+.main-nav ul.main-menu li a:hover {
+  border-bottom: 2px solid #262626;
+}
+
+.main-nav ul.main-menu {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.main-nav ul.right-menu li a {
+  display: flex;
+  flex-direction: row; /* Redundant */
+}
+
+.main-nav ul.right-menu li a p {
+  padding-right: 10px;
+}
+
+.main-nav ul.right-menu li a i {
+  line-height: 25px; /* In order to vertically center font awesome icons */
+}
