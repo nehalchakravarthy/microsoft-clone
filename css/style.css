@@ -80,9 +80,59 @@ ul {
 }
 
 .main-nav ul.right-menu li a p#sign-in:hover {
-  border-bottom: 0px;
+  border-bottom: 0;
 }
 
 .main-nav ul.right-menu li a i {
   line-height: 25px; /* In order to vertically center font awesome icons */
+}
+
+/* Button */
+
+.btn {
+  display: inline-block;
+  border: 0;
+  background-color: #111111;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  text-decoration: underline #bbb;
+}
+
+/* Showcase */
+
+.showcase {
+  background-color: #eee;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-basis: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.showcase .right {
+  flex: 1;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+}
+
+.showcase .left {
+  flex: 1;
+}
+
+.showcase .left h2,
+.showcase .left p,
+.showcase .left a {
+  margin-left: 75px;
+  margin-top: 30px;
+}
+
+.showcase .left h2 {
+  font-size: 50px;
 }
