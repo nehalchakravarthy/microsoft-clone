@@ -103,6 +103,10 @@ ul {
   text-decoration: underline #bbb;
 }
 
+.btn:hover i {
+  padding-left: 5px;
+}
+
 /* Showcase */
 
 .showcase {
@@ -113,6 +117,7 @@ ul {
   flex-basis: 100%;
   height: 500px;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .showcase .right {
@@ -135,4 +140,39 @@ ul {
 
 .showcase .left h2 {
   font-size: 50px;
+}
+
+/* Cards-1 */
+
+.cards-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  margin-bottom: 20px;
+}
+
+.cards-1 img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.cards-1 h3 {
+  margin-bottom: 5px;
+}
+
+.cards-1 a {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  color: #0067b8;
+  font-weight: bold;
+}
+
+.cards-1 a:hover {
+  text-decoration: underline;
+}
+
+.cards-1 a:hover i {
+  padding-left: 5px;
 }
