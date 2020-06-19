@@ -72,7 +72,15 @@ ul {
 }
 
 .main-nav ul.right-menu li a p {
-  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.main-nav ul.right-menu li a p:hover {
+  border-bottom: 2px solid #262626;
+}
+
+.main-nav ul.right-menu li a p#sign-in:hover {
+  border-bottom: 0px;
 }
 
 .main-nav ul.right-menu li a i {
