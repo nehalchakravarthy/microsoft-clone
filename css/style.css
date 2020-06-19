@@ -187,3 +187,15 @@ h2#work {
   font-weight: bold;
   margin-bottom: 20px;
 }
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 50px 0 40px;
+  color: #666;
+}
+
+.social-media * {
+  margin-right: 10px;
+}
