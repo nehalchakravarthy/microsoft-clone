@@ -8,7 +8,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: white;
   color: black;
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.5em;
 }
 
@@ -25,7 +25,6 @@ ul {
 
 .container {
   width: 90%;
-  /* max-width: 1100px; */
   margin: auto;
 }
 
@@ -36,13 +35,13 @@ ul {
   flex-direction: row; /* Redundant - By default direcrtion is row */
   align-items: center;
   justify-content: space-around; /* Distribute equal spaces to the 3 items */
-  height: 60px;
-  padding: 20px 0;
-  font-size: 13px;
+  height: 3.75rem;
+  padding: 1.25rem 0;
+  font-size: 0.8125rem;
 }
 
 .main-nav .logo {
-  width: 110px;
+  width: 6.875rem;
 }
 
 .main-nav ul {
@@ -50,20 +49,20 @@ ul {
 }
 
 .main-nav ul li {
-  padding: 0 10px;
+  padding: 0 0.625rem;
 }
 
 .main-nav ul li a {
-  padding-bottom: 5px;
+  padding-bottom: 0.3125rem;
 }
 
 .main-nav ul.main-menu li a:hover {
-  border-bottom: 2px solid #262626;
+  border-bottom: 0.125rem solid #262626;
 }
 
 .main-nav ul.main-menu {
   flex: 1;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 .main-nav ul.right-menu li a {
@@ -72,11 +71,11 @@ ul {
 }
 
 .main-nav ul.right-menu li a p {
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 
 .main-nav ul.right-menu li a p:hover {
-  border-bottom: 2px solid #262626;
+  border-bottom: 0.125rem solid #262626;
 }
 
 .main-nav ul.right-menu li a p#sign-in:hover {
@@ -84,7 +83,7 @@ ul {
 }
 
 .main-nav ul.right-menu li a i {
-  line-height: 25px; /* In order to vertically center font awesome icons */
+  line-height: 1.5625rem; /* In order to vertically center font awesome icons */
 }
 
 /* Covid Link */
@@ -94,17 +93,17 @@ ul {
   background-color: #0067b8;
   display: inline-block;
   width: 100%;
-  padding: 10px;
+  padding: 0.625rem;
   text-align: center;
 }
 
 .covid:hover {
-  border: 0.5px dashed white;
+  border: 0.0313rem dashed white;
 }
 
 .covid a {
   color: white;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .covid:hover a {
@@ -112,12 +111,12 @@ ul {
 }
 
 .covid i {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: white;
 }
 
 .covid:hover i {
-  padding-left: 2.5px;
+  padding-left: 0.1563rem;
 }
 
 /* Button */
@@ -128,7 +127,7 @@ ul {
   background-color: #111111;
   color: white;
   font-weight: bold;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
 }
 
 .btn:hover {
@@ -137,7 +136,7 @@ ul {
 }
 
 .btn:hover i {
-  padding-left: 5px;
+  padding-left: 0.3125rem;
 }
 
 /* Showcase */
@@ -148,9 +147,9 @@ ul {
   flex-direction: row;
   align-items: center;
   flex-basis: 100%;
-  height: 500px;
+  height: 31.25rem;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .showcase .right {
@@ -167,24 +166,24 @@ ul {
 .showcase .left h2,
 .showcase .left p,
 .showcase .left a {
-  margin-left: 75px;
-  margin-top: 30px;
+  margin-left: 4.6875rem;
+  margin-top: 1.875rem;
 }
 
 .showcase .left h2 {
-  font-size: 50px;
+  font-size: 3.125rem;
 }
 
 /* Products */
 
 .products {
   display: flex;
-  margin: 65px 320px;
+  margin: 4.0625rem 20rem;
   justify-content: space-between;
 }
 
 .products div {
-  width: 125px;
+  width: 7.8125rem;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -192,9 +191,9 @@ ul {
 }
 
 .products div img {
-  width: 40px;
+  width: 2.5rem;
   align-self: center;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
   cursor: pointer;
 }
 
@@ -211,25 +210,25 @@ ul {
 .cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 25px;
-  margin-bottom: 20px;
+  grid-gap: 1.5625rem;
+  margin-bottom: 1.25rem;
   cursor: pointer;
 }
 
 .cards img {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .cards h3 {
-  margin-bottom: 5px;
+  margin-bottom: 0.3125rem;
 }
 
 .cards a {
   display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  padding-right: 20px;
+  padding-top: 0.625rem;
+  padding-bottom: 0.3125rem;
+  padding-right: 1.25rem;
   color: #0067b8;
   font-weight: bold;
 }
@@ -239,7 +238,7 @@ ul {
 }
 
 .cards a:hover i {
-  padding-left: 5px;
+  padding-left: 0.3125rem;
 }
 
 .cards div:hover img {
@@ -249,12 +248,12 @@ ul {
 /* Xbox */
 .xbox {
   background-color: #c9c9c9;
-  margin: 50px 0;
+  margin: 3.125rem 0;
 }
 
 h2#work {
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 /* Social Media Links */
@@ -263,12 +262,12 @@ h2#work {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin: 50px 0 40px;
+  margin: 3.125rem 0 2.5rem;
   color: #666;
 }
 
 .social-media * {
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 
 /* Footer Links */
@@ -276,8 +275,8 @@ h2#work {
 .links {
   background: #f2f2f2;
   color: #616161;
-  font-size: 12px;
-  padding: 35px 0;
+  font-size: 0.75rem;
+  padding: 2.1875rem 0;
 }
 
 .links-inner {
@@ -290,7 +289,7 @@ h2#work {
 }
 
 .links li {
-  line-height: 2.5;
+  line-height: 1.875rem;
 }
 
 .links li a,
@@ -309,8 +308,8 @@ h2#work {
 .footer {
   background: #f2f2f2;
   color: #616161;
-  font-size: 12px;
-  padding: 20px 0;
+  font-size: 0.75rem;
+  padding: 1.25rem 0;
 }
 
 .footer-inner {
@@ -322,11 +321,11 @@ h2#work {
 }
 
 .footer i {
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 
 .fa-globe-americas {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .footer a:hover {
@@ -338,5 +337,5 @@ h2#work {
 }
 
 .footer li {
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
