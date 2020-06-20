@@ -188,13 +188,14 @@ ul {
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .products div img {
   width: 40px;
   align-self: center;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .products div a {
