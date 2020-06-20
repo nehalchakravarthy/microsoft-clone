@@ -142,6 +142,36 @@ ul {
   font-size: 50px;
 }
 
+/* Products */
+
+.products {
+  display: flex;
+  margin: 75px 320px;
+  justify-content: space-between;
+}
+
+.products div {
+  width: 125px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.products div img {
+  width: 40px;
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+.products div a {
+  font-weight: bold;
+}
+
+.products div a:hover {
+  text-decoration: underline;
+}
+
 /* Cards-1 */
 
 .cards {
