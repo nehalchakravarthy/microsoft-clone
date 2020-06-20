@@ -87,6 +87,39 @@ ul {
   line-height: 25px; /* In order to vertically center font awesome icons */
 }
 
+/* Covid Link */
+
+.covid {
+  cursor: pointer;
+  background-color: #0067b8;
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.covid:hover {
+  border: 0.5px dashed white;
+}
+
+.covid a {
+  color: white;
+  font-size: 12px;
+}
+
+.covid:hover a {
+  text-decoration: underline;
+}
+
+.covid i {
+  font-size: 12px;
+  color: white;
+}
+
+.covid:hover i {
+  padding-left: 2.5px;
+}
+
 /* Button */
 
 .btn {
@@ -146,7 +179,7 @@ ul {
 
 .products {
   display: flex;
-  margin: 75px 320px;
+  margin: 65px 320px;
   justify-content: space-between;
 }
 
@@ -179,6 +212,7 @@ ul {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 25px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .cards img {
@@ -205,6 +239,10 @@ ul {
 
 .cards a:hover i {
   padding-left: 5px;
+}
+
+.cards div:hover img {
+  opacity: 0.9;
 }
 
 /* Xbox */
